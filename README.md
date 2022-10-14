@@ -18,6 +18,16 @@ do
     echo "$i"
 done
 ```
+Given two integers, X and Y, find their sum, difference, product, and quotient.
+```
+read x 
+read y
+
+echo $((x + y))
+echo $((x - y))
+echo $((x * y))
+echo $((x / y))
+```
 
 ## Given two integers, X  and Y, identify whether X < Y or X > Y or X = Y .
 
