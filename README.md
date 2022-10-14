@@ -1,5 +1,10 @@
 # Hacker_Rank_Linux_Shell
 
+## Write a bash script that prints the string "HELLO".
+```
+echo "HELLO"
+```
+
 ## Given two integers, X  and Y, identify whether X < Y or X > Y or X = Y .
 
  Exactly one of the following lines:
