@@ -39,18 +39,16 @@ Given two integers, X  and Y, identify whether X < Y or X > Y or X = Y .
  - X is equal to Y
 
   ```
-  #!/bin/bash
-read x 
-read y 
-read z 
+read x
+read y
 
-if [$x -eq $y] && [$y -eq $z];
-    then 
-        echo "EQUILATERAL"
-elif [$x -en $y] && [$x -en $z];
-    then 
-        echo "equal"
+if (($x < $y))
+  then 
+    echo "X is less than Y"
+elif (($x > $y))
+  then 
+    echo "X is greater than Y"
 else 
-    echo "working"
-fi
+  echo "X is equal to Y"
+fi  
   ```
