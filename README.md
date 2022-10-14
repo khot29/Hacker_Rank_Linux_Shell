@@ -31,6 +31,22 @@ echo $((x * y))
 echo $((x / y))
 ```
 
+Read in one character from STDIN.
+If the character is 'Y' or 'y' display "YES".
+If the character is 'N' or 'n' display "NO".
+No other character will be provided as input.
+```
+read character
+
+if [ $character == 'y' ] || [ $character == 'Y' ]
+then
+    echo "YES";
+else
+    echo "NO";
+fi
+```
+
+
 Given two integers, X  and Y, identify whether X < Y or X > Y or X = Y .
 
  Exactly one of the following lines:
