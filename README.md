@@ -11,6 +11,14 @@ read input
 echo "Welcome $input"
 ```
 
+Use a for loop to display the natural numbers from 1 to 50.
+```
+for i in {1..50}
+do
+    echo "$i"
+done
+```
+
 ## Given two integers, X  and Y, identify whether X < Y or X > Y or X = Y .
 
  Exactly one of the following lines:
